@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 leptos = { version = "0.4.6", features = ["csr", "nightly"] }
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.37"
