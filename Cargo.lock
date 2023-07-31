@@ -745,6 +745,7 @@ version = "0.1.0"
 dependencies = [
  "leptos",
  "wasm-bindgen-test",
+ "web-sys",
 ]
 
 [[package]]

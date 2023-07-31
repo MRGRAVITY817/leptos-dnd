@@ -3,9 +3,10 @@ mod components;
 use components::{
     big_or_small::{BigOrSmall, SizeHeader},
     border_box::BorderBox,
+    modal::Modal,
     progress_bar::ProgressBar,
     simple_input::SimpleInput,
-    todo_list_item::TodoList,
+    todo_list::TodoList,
 };
 use leptos::*;
 
@@ -41,6 +42,7 @@ fn App(cx: Scope) -> impl IntoView {
             <BorderBox render_prop={|| view! {cx, <TodoList />}}>
               <SimpleInput />
             </BorderBox>
+            <Modal />
         </div>
     }
 }
